@@ -27,6 +27,8 @@ const page = () => {
             <Image
               src="/feature-work-1.jpg"
               alt="Service 1"
+              width={64}
+              height={64}
               className="w-full h-40 object-cover"
             />
             <div className="p-4">
@@ -39,6 +41,8 @@ const page = () => {
           <div className="bg-white shadow-md rounded-lg overflow-hidden">
             <Image
               src="/feature-work-2.jpg"
+              width={64}
+              height={64}
               alt="Service 2"
               className="w-full h-40 object-cover"
             />
@@ -52,6 +56,8 @@ const page = () => {
           <div className="bg-white shadow-md rounded-lg overflow-hidden">
             <Image
               src="/feature-work-3.jpg"
+              width={64}
+              height={64}
               alt="Service 3"
               className="w-full h-40 object-cover"
             />
