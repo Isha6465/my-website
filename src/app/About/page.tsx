@@ -10,7 +10,7 @@ const page = () => {
         provided by TemplateMo. Lorem ipsum dolor sit amet, consectetur
         adipiscing elit.
       </p>
-      <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
+      <div className="grid grid-cols-2 gap-6 md:grid-cols-4">
         {/* Replace with your team images */}
         <div className="flex justify-center">
           <Image
@@ -20,6 +20,7 @@ const page = () => {
             height={150}
             className="rounded-full"
           />
+          
         </div>
         <div className="flex justify-center">
           <Image
@@ -40,10 +41,19 @@ const page = () => {
           />
         </div>
         <div className="flex justify-center">
+          <Image
+            src="/team-04.jpg"
+            alt="Team Member 3"
+            width={150}
+            height={150}
+            className="rounded-full"
+          />
+        </div>
+       
           
         </div>
       </div>
-    </div>
+    
   );
 };
 
