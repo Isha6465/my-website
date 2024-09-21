@@ -40,13 +40,7 @@ const page = () => {
           />
         </div>
         <div className="flex justify-center">
-          <Image
-            src="/team-04.jpg"
-            alt="Team Member 4"
-            width={150}
-            height={150}
-            className="rounded-full"
-          />
+          
         </div>
       </div>
     </div>
