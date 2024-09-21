@@ -15,7 +15,7 @@ const page = () => {
         <div className="flex justify-center">
           <Image
             src="/team-01.jpg"
-            alt="Team Member 1"
+            alt=""
             width={150}
             height={150}
             className="rounded-full"
@@ -25,7 +25,7 @@ const page = () => {
         <div className="flex justify-center">
           <Image
             src="/team-02.jpg"
-            alt="Team Member 2"
+            alt=""
             width={150}
             height={150}
             className="rounded-full"
@@ -34,7 +34,7 @@ const page = () => {
         <div className="flex justify-center">
           <Image
             src="/team-03.jpg"
-            alt="Team Member 3"
+            alt=""
             width={150}
             height={150}
             className="rounded-full"
@@ -43,7 +43,7 @@ const page = () => {
         <div className="flex justify-center">
           <Image
             src="/team-04.jpg"
-            alt="Team Member 3"
+            alt=""
             width={150}
             height={150}
             className="rounded-full"
