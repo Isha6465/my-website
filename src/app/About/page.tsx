@@ -15,7 +15,7 @@ const About = () => {
         {/* Team images */}
         <div className="flex justify-center">
           <Image
-            src="/team-01.jpg"
+            src="/hero.jpg"
             alt="Team Member 1"
             width={150}
             height={150}
@@ -24,7 +24,7 @@ const About = () => {
         </div>
         <div className="flex justify-center">
           <Image
-            src="/team-02.jpg"
+            src="/hero.jpg"
             alt="Team Member 2"
             width={150}
             height={150}
@@ -33,7 +33,7 @@ const About = () => {
         </div>
         <div className="flex justify-center">
           <Image
-            src="/team-03.jpg"
+            src="/hero.jpg"
             alt="Team Member 3"
             width={150}
             height={150}
@@ -42,7 +42,7 @@ const About = () => {
         </div>
         <div className="flex justify-center">
           <Image
-            src="/team-04.jpg"
+            src="/hero.jpg"
             alt="Team Member 4"
             width={150}
             height={150}

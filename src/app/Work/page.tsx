@@ -8,7 +8,7 @@ const Work = () => {
         {/* Hero Section */}
         <div
           className="flex items-center justify-center h-screen bg-cover bg-center"
-          style={{ backgroundImage: "url('/banner-bg-02.jpg')" }}
+          style={{ backgroundImage: "url('/hero.jpg')" }}
         >
           <div className="p-8 rounded-lg text-center">
             <h1 className="text-5xl font-bold text-white mb-4">
@@ -55,8 +55,8 @@ const Work = () => {
                 className="relative overflow-hidden group rounded-lg shadow-lg"
               >
                 <Image
-                  src={`/our-work-0${index + 1}.jpg`}
-                  alt={`Our Work ${index + 1}`}
+                  src={`/hero.jpg`}
+                  alt={`Our Work`}
                   width={500}
                   height={300}
                   style={{ objectFit: "cover" }} // Set objectFit in styles
@@ -105,8 +105,8 @@ const Work = () => {
                 className="relative overflow-hidden rounded-lg shadow-lg"
               >
                 <Image
-                  src={`/feature-work-${index + 1}.jpg`}
-                  alt={`Feature Work ${index + 1}`}
+                  src={`/hero.jpg`}
+                  alt={`Feature Work`}
                   width={400}
                   height={300}
                   style={{ objectFit: "cover" }} // Set objectFit in styles

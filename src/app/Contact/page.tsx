@@ -39,7 +39,7 @@ const ContactPage = () => {
         {/* Media Contact */}
         <div className="flex items-center p-4 bg-gray-100 rounded-lg shadow hover:shadow-lg transition-shadow duration-300">
           <div className="flex items-center justify-center w-16 h-16 border border-gray-300 rounded-full mr-4">
-            <Image src="/team-01.jpg" alt="Media Contact" width={64} height={64} />
+            <Image src="/hero.jpg" alt="Media Contact" width={64} height={64} />
           </div>
           <div>
             <h2 className="text-xl font-semibold">Media Contact</h2>
@@ -51,7 +51,7 @@ const ContactPage = () => {
         {/* Technical Contact */}
         <div className="flex items-center p-4 bg-gray-100 rounded-lg shadow hover:shadow-lg transition-shadow duration-300">
           <div className="flex items-center justify-center w-16 h-16 border border-gray-300 rounded-full mr-4">
-            <Image src="/team-02.jpg" alt="Technical Contact" width={64} height={64} />
+            <Image src="/hero.jpg" alt="Technical Contact" width={64} height={64} />
           </div>
           <div>
             <h2 className="text-xl font-semibold">Technical Contact</h2>
@@ -63,7 +63,7 @@ const ContactPage = () => {
         {/* Billing Contact */}
         <div className="flex items-center p-4 bg-gray-100 rounded-lg shadow hover:shadow-lg transition-shadow duration-300">
           <div className="flex items-center justify-center w-16 h-16 border border-gray-300 rounded-full mr-4">
-            <Image src="/team-03.jpg" alt="Billing Contact" width={64} height={64} />
+            <Image src="/hero.jpg" alt="Billing Contact" width={64} height={64} />
           </div>
           <div>
             <h2 className="text-xl font-semibold">Billing Contact</h2>

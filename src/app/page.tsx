@@ -8,7 +8,7 @@ const Page = () => {
       {/* Hero Section */}
       <div className="relative h-80">
         <Image
-          src="/hero-section.png"
+          src="/hero.jpg"
           alt="Hero Image"
           fill // Use fill for layout
           style={{ objectFit: "cover" }} 
@@ -27,7 +27,7 @@ const Page = () => {
           {/* Card 1 */}
           <div className="bg-white shadow-md rounded-lg overflow-hidden">
             <Image
-              src="/feature-work-1.jpg"
+              src="/hero.jpg"
               alt="Service 1"
               width={64}
               height={64}
@@ -42,7 +42,7 @@ const Page = () => {
           {/* Card 2 */}
           <div className="bg-white shadow-md rounded-lg overflow-hidden">
             <Image
-              src="/feature-work-2.jpg"
+              src="/hero.jpg"
               width={64}
               height={64}
               alt="Service 2"
@@ -57,7 +57,7 @@ const Page = () => {
           {/* Card 3 */}
           <div className="bg-white shadow-md rounded-lg overflow-hidden">
             <Image
-              src="/feature-work-3.jpg"
+              src="/hero.jpg"
               width={64}
               height={64}
               alt="Service 3"
