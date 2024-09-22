@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
-const page = () => {
+
+const About = () => {
   return (
     <div className="flex flex-col items-center p-32 bg-slate-300">
       <h1 className="text-4xl font-bold mb-4">About Us</h1>
@@ -11,21 +12,20 @@ const page = () => {
         adipiscing elit.
       </p>
       <div className="grid grid-cols-2 gap-6 md:grid-cols-4">
-        {/* Replace with your team images */}
+        {/* Team images */}
         <div className="flex justify-center">
           <Image
             src="/team-01.jpg"
-            alt=""
+            alt="Team Member 1"
             width={150}
             height={150}
             className="rounded-full"
           />
-          
         </div>
         <div className="flex justify-center">
           <Image
             src="/team-02.jpg"
-            alt=""
+            alt="Team Member 2"
             width={150}
             height={150}
             className="rounded-full"
@@ -34,7 +34,7 @@ const page = () => {
         <div className="flex justify-center">
           <Image
             src="/team-03.jpg"
-            alt=""
+            alt="Team Member 3"
             width={150}
             height={150}
             className="rounded-full"
@@ -43,18 +43,15 @@ const page = () => {
         <div className="flex justify-center">
           <Image
             src="/team-04.jpg"
-            alt=""
+            alt="Team Member 4"
             width={150}
             height={150}
             className="rounded-full"
           />
         </div>
-       
-          
-        </div>
       </div>
-    
+    </div>
   );
 };
 
-export default page;
+export default About;

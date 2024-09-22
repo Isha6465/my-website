@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
-const page = () => {
+
+const ContactPage = () => {
   return (
     <div className="p-8 max-w-5xl mx-auto">
       {/* Contact Header Section */}
@@ -38,12 +39,7 @@ const page = () => {
         {/* Media Contact */}
         <div className="flex items-center p-4 bg-gray-100 rounded-lg shadow hover:shadow-lg transition-shadow duration-300">
           <div className="flex items-center justify-center w-16 h-16 border border-gray-300 rounded-full mr-4">
-            <Image
-              src="/team-01.jpg"
-              alt="Media Contact"
-              width={64}
-              height={64}
-            />
+            <Image src="/team-01.jpg" alt="Media Contact" width={64} height={64} />
           </div>
           <div>
             <h2 className="text-xl font-semibold">Media Contact</h2>
@@ -55,12 +51,7 @@ const page = () => {
         {/* Technical Contact */}
         <div className="flex items-center p-4 bg-gray-100 rounded-lg shadow hover:shadow-lg transition-shadow duration-300">
           <div className="flex items-center justify-center w-16 h-16 border border-gray-300 rounded-full mr-4">
-            <Image
-              src="/team-02.jpg"
-              alt="Technical Contact"
-              width={64}
-              height={64}
-            />
+            <Image src="/team-02.jpg" alt="Technical Contact" width={64} height={64} />
           </div>
           <div>
             <h2 className="text-xl font-semibold">Technical Contact</h2>
@@ -72,12 +63,7 @@ const page = () => {
         {/* Billing Contact */}
         <div className="flex items-center p-4 bg-gray-100 rounded-lg shadow hover:shadow-lg transition-shadow duration-300">
           <div className="flex items-center justify-center w-16 h-16 border border-gray-300 rounded-full mr-4">
-            <Image
-              src="/team-03.jpg"
-              alt="Billing Contact"
-              width={64}
-              height={64}
-            />
+            <Image src="/team-03.jpg" alt="Billing Contact" width={64} height={64} />
           </div>
           <div>
             <h2 className="text-xl font-semibold">Billing Contact</h2>
@@ -90,43 +76,18 @@ const page = () => {
       {/* Contact Form Section */}
       <div className="bg-white p-8 rounded-lg shadow-md">
         <h2 className="text-2xl font-semibold mb-6">Get in Touch</h2>
-        <input
-          type="text"
-          placeholder="Name"
-          className="border border-gray-300 rounded-md p-3 mb-4 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
-        />
-        <input
-          type="email"
-          placeholder="Email"
-          className="border border-gray-300 rounded-md p-3 mb-4 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
-        />
+        <input type="text" placeholder="Name" className="border border-gray-300 rounded-md p-3 mb-4 w-full focus:outline-none focus:ring-2 focus:ring-blue-500" />
+        <input type="email" placeholder="Email" className="border border-gray-300 rounded-md p-3 mb-4 w-full focus:outline-none focus:ring-2 focus:ring-blue-500" />
         <div className="flex mb-4">
-          <input
-            type="number"
-            placeholder="Phone"
-            className="border border-gray-300 rounded-md p-3 w-1/2 mr-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-          />
-          <input
-            type="text"
-            placeholder="Company Name"
-            className="border border-gray-300 rounded-md p-3 w-1/2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-          />
+          <input type="number" placeholder="Phone" className="border border-gray-300 rounded-md p-3 w-1/2 mr-2 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+          <input type="text" placeholder="Company Name" className="border border-gray-300 rounded-md p-3 w-1/2 focus:outline-none focus:ring-2 focus:ring-blue-500" />
         </div>
-        <input
-          type="text"
-          placeholder="Subject"
-          className="border border-gray-300 rounded-md p-3 mb-4 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
-        />
-        <textarea
-          placeholder="Message"
-          className="border border-gray-300 rounded-md p-3 mb-4 w-full h-40 focus:outline-none focus:ring-2 focus:ring-blue-500"
-        ></textarea>
-        <button className="bg-blue-600 text-white rounded-full py-3 px-8 transition duration-300 hover:bg-blue-500">
-          Send Message
-        </button>
+        <input type="text" placeholder="Subject" className="border border-gray-300 rounded-md p-3 mb-4 w-full focus:outline-none focus:ring-2 focus:ring-blue-500" />
+        <textarea placeholder="Message" className="border border-gray-300 rounded-md p-3 mb-4 w-full h-40 focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+        <button className="bg-blue-600 text-white rounded-full py-3 px-8 transition duration-300 hover:bg-blue-500">Send Message</button>
       </div>
     </div>
   );
 };
 
-export default page;
+export default ContactPage;

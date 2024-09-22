@@ -10,7 +10,7 @@ const Work = () => {
           className="flex items-center justify-center h-screen bg-cover bg-center"
           style={{ backgroundImage: "url('/banner-bg-02.jpg')" }}
         >
-          <div className=" p-8 rounded-lg text-center">
+          <div className="p-8 rounded-lg text-center">
             <h1 className="text-5xl font-bold text-white mb-4">
               Welcome to Our Work
             </h1>
@@ -59,7 +59,8 @@ const Work = () => {
                   alt={`Our Work ${index + 1}`}
                   width={500}
                   height={300}
-                  className="w-full h-40 object-cover group-hover:scale-105 transition-transform duration-300"
+                  style={{ objectFit: "cover" }} // Set objectFit in styles
+                  className="w-full h-40 group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 p-4">
                   <h1 className="text-xl font-semibold text-white">
@@ -108,7 +109,8 @@ const Work = () => {
                   alt={`Feature Work ${index + 1}`}
                   width={400}
                   height={300}
-                  className="w-full h-40 object-cover"
+                  style={{ objectFit: "cover" }} // Set objectFit in styles
+                  className="w-full h-40"
                 />
               </div>
             ))}

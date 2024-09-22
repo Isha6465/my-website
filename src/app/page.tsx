@@ -1,6 +1,8 @@
+
 import React from "react";
 import Image from "next/image";
-const page = () => {
+
+const Page = () => {
   return (
     <div className="bg-slate-200">
       {/* Hero Section */}
@@ -8,8 +10,8 @@ const page = () => {
         <Image
           src="/banner-img-01.svg"
           alt="Hero Image"
-          layout="fill"
-          objectFit="contain"
+          fill // Use fill for layout
+          style={{ objectFit: "contain" }} // Use style for objectFit
           className="rounded-md"
         />
         <div className="absolute inset-0 bg-black opacity-30"></div>
@@ -72,4 +74,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
