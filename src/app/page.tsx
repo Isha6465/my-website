@@ -11,7 +11,7 @@ const Page = () => {
           src="/hero-section.png"
           alt="Hero Image"
           fill // Use fill for layout
-          style={{ objectFit: "cover" }} // Use style for objectFit
+          style={{ objectFit: "cover" }} 
           className="rounded-md"
         />
         <div className="absolute inset-0 bg-black opacity-30"></div>
