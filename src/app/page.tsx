@@ -8,10 +8,10 @@ const Page = () => {
       {/* Hero Section */}
       <div className="relative h-80">
         <Image
-          src="/banner-img-01.svg"
+          src="/hero-section.png"
           alt="Hero Image"
           fill // Use fill for layout
-          style={{ objectFit: "contain" }} // Use style for objectFit
+          style={{ objectFit: "cover" }} // Use style for objectFit
           className="rounded-md"
         />
         <div className="absolute inset-0 bg-black opacity-30"></div>
